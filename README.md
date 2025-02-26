@@ -10,17 +10,17 @@ O projeto está organizado nos seguintes arquivos e pastas:
 
 /projeto_mercado_futebol
 │
-├── main.py # Arquivo principal para executar o programa
-├── classes/ # Pasta com as classes do projeto
-│ ├── init.py # Arquivo para tornar a pasta um pacote
-│ ├── jogador.py # Classe Jogador (classe base)
-│ ├── atacante.py # Classe Atacante (herda de Jogador)
-│ ├── meio_campista.py # Classe MeioCampista (herda de Jogador)
-│ └── goleiro.py # Classe Goleiro (herda de Jogador)
-├── funcoes/ # Pasta com funções auxiliares
-│ ├── init.py # Arquivo para tornar a pasta um pacote
-│ └── utils.py # Funções utilitárias
-└── README.md # Documentação do projeto
+├── main.py                # Arquivo principal para executar o programa
+├── classes/               # Pasta com as classes do projeto
+│   ├── __init__.py        # Arquivo para tornar a pasta um pacote
+│   ├── jogador.py         # Classe Jogador (classe base)
+│   ├── atacante.py        # Classe Atacante (herda de Jogador)
+│   ├── meio_campista.py   # Classe MeioCampista (herda de Jogador)
+│   └── goleiro.py         # Classe Goleiro (herda de Jogador)
+├── funcoes/               # Pasta com funções auxiliares
+│   ├── __init__.py        # Arquivo para tornar a pasta um pacote
+│   └── utils.py           # Funções utilitárias
+└── README.md              # Documentação do projeto
 
 
 ---
