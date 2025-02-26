@@ -1,4 +1,4 @@
-from classes.jogador import Jogador  # Importa a classe base Jogador
+from classes.jogador import Jogador  
 
 # Herança
 class Goleiro(Jogador):
