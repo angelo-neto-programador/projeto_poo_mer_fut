@@ -27,15 +27,11 @@ O projeto está organizado nos seguintes arquivos e pastas:
 
 ## Como Executar o Projeto
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/projeto_mercado_futebol.git
 
-2. Navegue até a pasta do projeto:
-   cd projeto_mercado_futebol
-
-3.Execute o arquivo principal:
-  python main.py
+  
+1. 
+2.
+  
 
 ---
 
