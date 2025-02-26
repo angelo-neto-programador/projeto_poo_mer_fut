@@ -58,7 +58,7 @@ Conceitos de POO Aplicados:
         self._idade = idade
         self._valor_mercado = valor_mercado
 
-   2. Encapsulamento:
+ 2. Encapsulamento:
       Atributos como _nome, _posicao, _idade e _valor_mercado são protegidos com _.
 
       Métodos públicos (get_nome, get_valor_mercado) permitem acesso controlado aos atributos.
@@ -67,7 +67,7 @@ Conceitos de POO Aplicados:
       def get_nome(self):
     return self._nome
 
-    3. Herança:
+3. Herança:
        As subclasses Atacante, MeioCampista e Goleiro herdam atributos e métodos da classe base Jogador.
        Ex:
        class Atacante(Jogador):
