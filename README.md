@@ -1,6 +1,6 @@
-# Projeto de Mercado de Futebol em POO
+# Projeto Valor de Mercado de Futebol em POO
 
-Este projeto demonstra os conceitos de **Programação Orientada a Objetos (POO)** usando o tema do mercado de futebol. Ele simula jogadores, clubes, transferências e contratos, aplicando os pilares da POO: **Abstração**, **Encapsulamento**, **Herança** e **Polimorfismo**.
+Este projeto demonstra os conceitos de **Programação Orientada a Objetos (POO)** usando o tema do mercado de futebol. Ele simula uma evolução do valor de mercado de jogadores com base em seu desempenho aplicando os pilares da POO: **Abstração**, **Encapsulamento**, **Herança** e **Polimorfismo**.
 
 ---
 
