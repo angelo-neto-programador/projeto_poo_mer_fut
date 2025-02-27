@@ -35,7 +35,7 @@ Passo a Passo
 1 - Clone o repositório (se estiver usando Git) ou baixe os arquivos do projeto.
 
 2 - Navegue até a pasta do projeto:
-cd caminho/para/projeto_futebol
+cd caminho/para/PROJETO_VALOR_EM_CAMPO_POO
 
 3 - Execute o arquivo main.py:
 python main.py
