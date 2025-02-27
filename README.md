@@ -48,7 +48,7 @@ Explicação do Código
 
 A classe **Jogador** é a base para todas as outras classes. Ela define os atributos comuns a todos os jogadores, como nome, posição, idade e valor de mercado, e métodos para acessar esses atributos.
 
-class Jogador:
+     class Jogador:
 
     def __init__(self, nome, posicao, idade, valor_mercado):
         self._nome = nome  # Encapsulamento: atributo protegido
@@ -83,9 +83,9 @@ Cada classe herda da classe Jogador e adiciona atributos e comportamentos espec�
 
 Código: atacante.py
 
-from classes.jogador import Jogador  
+    from classes.jogador import Jogador  
 
-class Atacante(Jogador):
+    class Atacante(Jogador):
     def __init__(self, nome, idade, valor_mercado, gols_marcados):
         super().__init__(nome, "Atacante", idade, valor_mercado)  
         self._gols_marcados = gols_marcados  
@@ -102,9 +102,9 @@ class Atacante(Jogador):
 
 Código: meio_campista.py
 
-from classes.jogador import Jogador  
+    from classes.jogador import Jogador  
 
-class MeioCampista(Jogador):
+    class MeioCampista(Jogador):
     def __init__(self, nome, idade, valor_mercado, assistencias):
         super().__init__(nome, "Meio-Campista", idade, valor_mercado) 
         self._assistencias = assistencias  
@@ -121,9 +121,9 @@ class MeioCampista(Jogador):
 
 Código: goleiro.py
 
-from classes.jogador import Jogador  
+    from classes.jogador import Jogador  
 
-class Goleiro(Jogador):
+    class Goleiro(Jogador):
     def __init__(self, nome, idade, valor_mercado, defesas):
         super().__init__(nome, "Goleiro", idade, valor_mercado)  
         self._defesas = defesas  
@@ -142,31 +142,31 @@ class Goleiro(Jogador):
 
 O arquivo main.py cria instâncias dos jogadores e testa as funcionalidades.
 
-Código: main.py
+    Código: main.py
 
-from classes.atacante import Atacante
-from classes.meio_campista import MeioCampista
-from classes.goleiro import Goleiro
-from classes.lateral import Lateral
-from classes.defensor import Defensor
+    from classes.atacante import Atacante
+    from classes.meio_campista import MeioCampista
+    from classes.goleiro import Goleiro
+    from classes.lateral import Lateral
+    from classes.defensor import Defensor
 
-def definir_jogador(jogador, desempenho):
-    print(f"\nDefinindo {jogador.__class__.__name__}:")
-    jogador.exibir_info()
-    jogador.atualizar_valor_mercado(desempenho)
+    def definir_jogador(jogador, desempenho):
+        print(f"\nDefinindo {jogador.__class__.__name__}:")
+        jogador.exibir_info()
+        jogador.atualizar_valor_mercado(desempenho)
 
-def diminuir_valor_jogador(jogador, desempenho_negativo):
-    print(f"\nDiminuindo valor de mercado de {jogador.__class__.__name__}:")
-    jogador.exibir_info()
-    jogador.diminuir_valor_mercado(desempenho_negativo)
+    def diminuir_valor_jogador(jogador, desempenho_negativo):
+        print(f"\nDiminuindo valor de mercado de {jogador.__class__.__name__}:")
+        jogador.exibir_info()
+        jogador.diminuir_valor_mercado(desempenho_negativo)
 
-if __name__ == "__main__":
-    # Instâncias de jogadores
-    neymar = Atacante("Neymar", 31, 80, 200)
-    modric = MeioCampista("Modric", 37, 50, 150)
-    neuer = Goleiro("Neuer", 30, 70, 100)
-    marcelo = Lateral("Marcelo", 34, 30, 50)
-    ramos = Defensor("Ramos", 36, 40, 80)
+    if __name__ == "__main__":
+        # Instâncias de jogadores
+        neymar = Atacante("Neymar", 31, 80, 200)
+        modric = MeioCampista("Modric", 37, 50, 150)
+        neuer = Goleiro("Neuer", 30, 70, 100)
+        marcelo = Lateral("Marcelo", 34, 30, 50)
+        ramos = Defensor("Ramos", 36, 40, 80)
 
     # Testa os jogadores com diferentes desempenhos
     definir_jogador(neymar, 10)  # Neymar marcou 10 gols
