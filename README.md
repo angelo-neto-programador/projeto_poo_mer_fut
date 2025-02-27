@@ -182,6 +182,38 @@ O arquivo main.py cria instâncias dos jogadores e testa as funcionalidades.
     diminuir_valor_jogador(marcelo, 4)  # Marcelo teve 4 desempenhos negativos
     diminuir_valor_jogador(ramos, 6)  # Ramos teve 6 desempenhos negativos
 
+Resultado esperado:
+**Definindo Atacante:
+Atacante Neymar marcou 10 gols. Valor de mercado atualizado para �35M
+
+Definindo MeioCampista:
+Meio-Campista Modric deu 8 assist�ncias. Valor de mercado atualizado para �17.0M
+
+Definindo Goleiro:
+Goleiro Neuer fez 15 defesas. Valor de mercado atualizado para �19M
+
+Definindo Lateral:
+Lateral Lucas Piton fez 10 cruzamentos certos. Valor de mercado atualizado para �15.0M
+
+Definindo Zagueiro:
+Zagueiro Ramos fez 2 desarmes certos. Valor de mercado atualizado para �2.8M
+
+Diminuindo valor de mercado de Atacante:
+Atacante Neymar ficou 5 jogos sem marcar. Valor de mercado diminu�do para �30M
+
+Diminuindo valor de mercado de MeioCampista:
+Meio-Campista Modric ficou 4 jogos sem assist�ncias. Valor de mercado diminu�do para �13.8M
+
+Diminuindo valor de mercado de Goleiro:
+Goleiro Neuer sofreu 3 gols por erro. Valor de mercado diminu�do para �15.4M
+
+Diminuindo valor de mercado de Lateral:
+Lateral Lucas Piton errou 4 cruzamentos. Valor de mercado diminu�do para �13.0M
+
+Diminuindo valor de mercado de Zagueiro:
+Zagueiro Ramos fez 6 botes errados na bola. Valor de mercado diminu�do para �1.0M**
+
+
 **Versão do Projeto**:
 - Versão 1.0.0: Lançamento inicial do projeto
 
