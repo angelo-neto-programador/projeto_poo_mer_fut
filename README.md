@@ -220,6 +220,7 @@ O arquivo main.py cria instâncias dos jogadores e testa as funcionalidades.
     diminuir_valor_jogador(neuer, 3)  # Neuer sofreu 3 gols por erro
     diminuir_valor_jogador(marcelo, 4)  # Marcelo teve 4 desempenhos negativos
     diminuir_valor_jogador(ramos, 6)  # Ramos teve 6 desempenhos negativos
+----------
 
 Resultado esperado:
 
