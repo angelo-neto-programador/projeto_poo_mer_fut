@@ -183,6 +183,7 @@ O arquivo main.py cria instâncias dos jogadores e testa as funcionalidades.
     diminuir_valor_jogador(ramos, 6)  # Ramos teve 6 desempenhos negativos
 
 Resultado esperado:
+
 **Definindo Atacante:
 Atacante Neymar marcou 10 gols. Valor de mercado atualizado para �35M
 
