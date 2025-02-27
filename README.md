@@ -1,7 +1,7 @@
 # Projeto Valor em Campo POO
 
 Descrição:
-Este projeto é um sistema de gerenciamento de jogadores de futebol, desenvolvido em Python, que utiliza conceitos de Programação Orientada a Objetos (POO), como Abstração, Encapsulamento, Herança e Polimorfismo. O sistema permite criar jogadores de diferentes posições (Atacante, Meio-Campista, Goleiro, Lateral e Defensor), atualizar seus valores de mercado com base no desempenho e diminuir o valor de mercado em caso de desempenhos negativos.
+Este projeto é um sistema de gerenciamento de jogadores de futebol, desenvolvido em Python, que utiliza conceitos de Programação Orientada a Objetos (POO), como Abstração, Encapsulamento, Herança e Polimorfismo. O sistema permite criar jogadores de diferentes posições (Atacante, Meio-Campista, Goleiro, Lateral e Zagueiro), atualizar seus valores de mercado com base no desempenho e diminuir o valor de mercado em caso de desempenhos negativos.
 
 ---
 
