@@ -201,4 +201,4 @@ Email: angeloneto@alu.ufc.br
 
 **Agradecimentos**:
 - Agradeço a toda a comunidade da Universidade Federal do Ceará por todo o suporte e inspiração.
-- Um agradecimento especial ao Professor Juan Sebastian Toquica Arenas pelo seu trabalho ensinando os métodos de Progamação Orientada a Objetos para toda a comunidade de docentes.
+- Um agradecimento especial ao Professor Juan Sebastian Toquica Arenas pelo seu trabalho ensinando os métodos de Progamação Orientada a Objetos para toda a comunidade discente.
