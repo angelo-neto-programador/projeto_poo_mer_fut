@@ -193,9 +193,6 @@ O arquivo main.py cria instâncias dos jogadores e testa as funcionalidades.
 **Autor**:
 - Angelo Neto
 
-**Licença**:
-- Este projeto está licenciado sob a licença MIT.
-
 **Contato**:
 Email: angeloneto@alu.ufc.br
 
