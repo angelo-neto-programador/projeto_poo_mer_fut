@@ -9,7 +9,7 @@ Este projeto é um sistema de gerenciamento de jogadores de futebol, desenvolvid
 
 O projeto está organizado nos seguintes arquivos e pastas:
 
-/projeto_mercado_futebol
+/projeto_valor_em_campo
 
 ├── main.py                # Arquivo principal para executar o programa
 ├── classes/               # Pasta com as classes do projeto
