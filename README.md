@@ -28,6 +28,7 @@ O projeto está organizado nos seguintes arquivos e pastas:
 
 Pré-requisitos
 1 - Python 3.12: Certifique-se de ter o Python instalado em sua máquina.
+
 2 - IDE ou Editor de Texto: Recomendo o uso do VS Code, PyCharm ou qualquer editor de sua preferência.
 
 Passo a Passo
